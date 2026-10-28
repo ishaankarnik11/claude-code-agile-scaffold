@@ -1,0 +1,38 @@
+{
+  "name": "setup-workflow",
+  "version": "1.0.0",
+  "description": "Initialize an AI-assisted agile development workflow for any project. One command bootstraps agents, commands, hooks, standards, and a populated backlog from your FRD/PRD/BRD.",
+  "keywords": [
+    "claude-code",
+    "ai-development",
+    "agile",
+    "workflow",
+    "scaffold",
+    "agents",
+    "FRD",
+    "PRD",
+    "sprint",
+    "backlog"
+  ],
+  "author": "Ishaan Karnik",
+  "license": "MIT",
+  "bin": {
+    "setup-workflow": "./bin/install.js"
+  },
+  "files": [
+    "bin/",
+    "skill/",
+    "HOW-TO-USE.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ishaankarnik11/claude-code-agile-scaffold.git"
+  },
+  "homepage": "https://github.com/ishaankarnik11/claude-code-agile-scaffold#readme",
+  "bugs": {
+    "url": "https://github.com/ishaankarnik11/claude-code-agile-scaffold/issues"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

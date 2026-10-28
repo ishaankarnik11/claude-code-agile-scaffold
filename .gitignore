@@ -1,0 +1,8 @@
+node_modules/
+*.log
+*.tgz
+.DS_Store
+
+# Local Claude Code config and duplicate skill copies (source of truth is skill/)
+.claude/
+graphify-out/

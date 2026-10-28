@@ -1,0 +1,7 @@
+# Development files — not published to npm
+.claude/
+.git/
+.gitignore
+node_modules/
+*.log
+.npmignore
